@@ -13,4 +13,8 @@ public class MyString implements StringExpression{
         return this.value;
     }
 
+    @Override
+    public String toString() {
+        return this.value;
+    }
 }
