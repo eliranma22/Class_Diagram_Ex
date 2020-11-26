@@ -15,6 +15,6 @@ public class MyString implements StringExpression{
 
     @Override
     public String toString() {
-        return this.value;
+        return value;
     }
 }
